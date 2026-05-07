@@ -1,5 +1,3 @@
-let nota1 = 7;
-let nota2 = 10;
-let total = nota1 + nota2;
-let media = total / 2
- console.log(`media do aluno foi de:${media}`);
+let notas = [7.5,8.5,9.0];
+let media = (notas[0] + notas[1] + notas[2]) / 3;
+console.log("media das notas:", media.toFixed(100)); 
