@@ -1,3 +1,6 @@
-let pontuacao = 101;
-let resultado = pontuacao >= 100 ? vencedor: perdedor;
-console.log("resultado:",resultado);
+let carro = {
+    modelo: 'mustang',
+    ano: 1984,
+    automatico: true,
+}
+console.log(`o carro modelo ${carro.modelo} do ${carro.ano} é automatico? false`);
