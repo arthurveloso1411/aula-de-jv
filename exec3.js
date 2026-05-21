@@ -1,6 +1,5 @@
-let carro = {
-    modelo: 'mustang',
-    ano: 1984,
-    automatico: true,
+function calcularmedia(a,b,c){
+    return (a+b+c)/3;
 }
-console.log(`o carro modelo ${carro.modelo} do ${carro.ano} é automatico? false`);
+let resultado = calcularmedia(7,6,8);
+console.log("resultado:",resultado);
