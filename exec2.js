@@ -1,10 +1,3 @@
-velocidade =  81;
-if(velocidade <= 80) {
-    console.log("dentro do limite");
-}
-else if (velocidade <= 100) {
-    console.log("MULTADO");
-}
-else  {
-    console.log("voce morreu");
+for (let i = 1; i <= 3; i++) {
+    console.log("Repetição", i);
 }
